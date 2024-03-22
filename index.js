@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 //1) computer will generate a random number - done
 // 2) user input for gussing number - done
 //  3) compare user input with computer generated number and show result do
-const randomNumber = Math.floor(Math.random() * 6 + 1);
+const randomNumber = Math.floor(Math.random() * 20 + 1);
 const answers = await inquirer.prompt([{
         name: "usergussednumber",
         type: "number",
